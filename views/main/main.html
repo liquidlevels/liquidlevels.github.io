@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+    </head>
+    <body>
+        <header class="top_bar">
+            <div class="logo">
+                <img src="/assets/logo.png">
+            </div>
+            <nav class="top_buttons">
+                <button type="button" onclick="location.href='/views/main/main.html#promociones'">Promociones</button>
+                <button type="button" onclick="location.href='/views/menu/menu.html'">Menu</button>
+                <button type="button" onclick="location.href='/views/nosotros/nosotros.html'">Nosotros</button>
+                <button type="button" id="button_order" onclick="location.href='/views/ordenar/ordenar.html'">
+                    <i class="fas fa-shopping-cart"></i> Ordenar
+                </button>
+            </nav>
+        </header>
+        <main>
+            <section class="home_section">
+                <div class="text-and-search">
+                    <h1>Bienvenidos</h1>
+                    <h2>Cafeteria del ITE</h2>
+            
+                    <div class="search-container">
+                        <input type="search" placeholder="Buscar">
+                        <button class="search-icon">
+                            <i class="fas fa-search"></i> 
+                        </button>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="/assets/promociones/BienvenidosCafeITE.png" alt="Bienvenidos Café ITE">
+                </div>
+            </section>
+
+            <section class="menu_promotions">
+                <div class="description">
+                    <h3> Promociones del Día</h3>
+                    <p> !Aprovecha nuestras ofertas especiales!</p>
+                </div>
+                <section class="image-grid">
+                    <figure>
+                        <img src="/assets/promociones/lunes.png" alt="Imagen 1">
+                        <figcaption>Lunes</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/promociones/Martes.png" alt="Imagen 2">
+                        <figcaption>Martes</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/promociones/miercoles.png" alt="Imagen 3">
+                        <figcaption>Miercoles</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/promociones/jueves.png" alt="Imagen 4">
+                        <figcaption>Jueves</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/promociones/viernes.png" alt="Imagen 5">
+                        <figcaption>Viernes</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/promociones/sabado.png" alt="Imagen 6">
+                        <figcaption>Sabado</figcaption>
+                    </figure>
+                </section>
+            </section>
+        </main>   
+    </body>
+    
+</html>

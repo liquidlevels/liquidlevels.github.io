@@ -1,0 +1,81 @@
+:root {
+    --font-title: 'Lora', serif;
+    --font-body: Arial, sans-serif;
+    --amarillo: #FFD700;
+    --azul: #002A5E;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    
+  }
+  .no-order {
+    margin-left: 10px; 
+    color: var(--azul);
+    font-size: 20px;  
+  }
+  
+  .main-card {
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .card {
+    border: 2px solid #D2B48C;
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align:left;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card i {
+    font-size: 40px; 
+    margin-bottom: 10px; 
+  }
+  
+  h2 {
+    color: var(--azul);
+    width: 300px;
+   
+  }
+  .description{
+    color: var(--azul);
+  }
+  
+  h3  {
+    color: var(--azul);
+    margin-top: 0;
+  }
+  button{
+    background-color: var(--amarillo);
+    border-radius: 10px;
+    color: var(--azul);
+    align-self: flex-start;
+    font-family: var(--font-body);
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }

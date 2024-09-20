@@ -1,0 +1,174 @@
+:root {
+    --font-title: 'Lora', serif;
+    --font-body: Arial, sans-serif;
+    --amarillo: #FFD700;
+    --azul: #002A5E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_bar {
+    display: flex;
+    align-items: center;
+    padding: 10px, 20px;
+    justify-content: space-between;
+    background-color: var(--azul);
+    padding: 10px 20px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+}
+
+.top_buttons button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: var(--font-body);
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.top_buttons button:hover {
+    background-color: var(--amarillo);
+    color: var(--azul);
+    border-radius: 10px;
+}
+
+#button_order {
+    background-color: var(--amarillo);
+    border-radius: 10px;
+    color: var(--azul);
+}
+
+.day-info, .breakfest-info, .dinner-info, .drinks-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.info h1 { 
+    font-family: var(--font-title);
+    font-size: 12px;
+}
+
+.info h2{ 
+    margin-top: 10px;
+    font-family: var(--font-title);
+    font-size: 30px;
+}
+
+.info  p {
+    margin-top: 10px;
+    font-family: var(--font-title);
+}
+
+.button_more button {
+    background-color: transparent;
+    color: var(--azul);
+    font-family: var(--font-body);
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button_more:hover {
+    color: var(--azul);
+    border-radius: 10px;
+}
+
+
+.reel { 
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+.reel-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.reel-indicators {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+    background-color: var(--azul); 
+}
+
+.card {
+    min-width: 200px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    scroll-snap-align: start;
+    border-radius: 8px;
+    padding: 16px; 
+    transition: transform 0.3s ease;
+    text-align: center; 
+}
+
+.card img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 8px;
+}
+
+.card p {
+    margin: 5px 0; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.reel-container::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,47 @@
+
+
+.contact {
+    
+    max-width: auto;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+
+    
+}
+.info-section {
+    
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #002A5E;
+}
+.form-column {
+    display: flex;
+    flex-direction: column;  
+}
+.social-icon {
+    margin-right: 10px;
+    width: 24px;  
+    height: auto; 
+}
+h1{
+    color: #002A5E;
+}
+p{
+    color: #f4f4f4;
+}
+h3{
+    color: #FFFFFF;
+}
+#comentario{
+    max-lines: 50;
+}
+#button_send{
+    background-color: #FFD700;
+    color: #002A5E;
+    border-radius: 6px;
+    border-color:  #FFD700;
+    
+}

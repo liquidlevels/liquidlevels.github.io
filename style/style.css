@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #002A5E;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+
+.navbar-collapse {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FFD700;
+}

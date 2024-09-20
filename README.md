@@ -6,6 +6,4 @@ git clone https://github.com/liquidlevels/cafeteria.git
 ```
 
 visita nuestra pagina web
-```
-https://liquidlevels.github.io
-```
+[link](https://liquidlevels.github.io)
